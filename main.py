@@ -33,7 +33,7 @@ def main():
     args = parser.parse_args()
     logger = setup_logger()
     
-	logger.info(f"Running command: {args.command}")
+    logger.info(f"Running command: {args.command}")
     
     exit_code, stdout, stderr = run_command(args.command)
 
